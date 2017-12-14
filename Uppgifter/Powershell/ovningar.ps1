@@ -113,8 +113,40 @@ HEJ LISA! OM 30 ÅR ÄR DU 53 ÅR GAMMAL
 
 PS C:\Project\AvanceradWebbutv\Uppgifter\Powershell> .\hello.ps1 -firstname Lisa -age 23 -toupper no
 Hej Lisa! Om 30 år är du 53 år gammal
-
  
 # Visa innehållet i filen colors.txt
 
 # Visa andra färgen i filen colors.txt
+
+# Skriv ut de 10 mest CPU-intensiva processerna på datorn 
+
+# Visa info om Service'arna WinDefend och UserManager (om du inte har dem så välj två andra service'ar)
+
+# Hämta info om de services som finns i filen "service-names.txt"
+
+# Lista de fem första service'nra och skriv "En service : " först. 
+
+En service: AESMService
+En service: AJRouter
+En service: ALG
+En service: AppIDSvc
+En service: Appinfo
+
+# Ta bort allt under C:\TMP\Play, inklusive undermappar
+
+# Skapa två mappar: c:\TMP\Play och c:\TMP\Play\SubFolder 
+
+# Skapa en fil test1.txt under c:\TMP\Play
+
+# Skapa en fil test1.txt under c:\TMP\Play och skriv över den om den redan finns
+
+# Skapa en textfil "colors.txt" med tre färger i (o radbryt efter varje färg)
+
+# Skapa mha en loop tio filer: test1.txt, test2.txt.... och lägg dem under c:\TMP\Play
+
+# Skapa en fil för varje rad i "colors.txt" och namnge dem till Sever-FÄRG.txt
+# T.ex Server-Red.txt, Server-Green.txt, Server-Blue.txt 
+
+# ----- Avancerat
+
+# Skapa ett script som automatiskt bygger ditt projekt i .NET när du sparar en av dina cs-filer
