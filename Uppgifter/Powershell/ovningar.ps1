@@ -147,6 +147,21 @@ En service: Appinfo
 # Skapa en fil för varje rad i "colors.txt" och namnge dem till Sever-FÄRG.txt
 # T.ex Server-Red.txt, Server-Green.txt, Server-Blue.txt 
 
+# Visa alla telefonnummer på www.lernia.se (i skrivande stund bara ett)
+
+# Visa alla länkar på lernia.se som leder till en sida om jobb (URL'en börjar med "/jobb")
+
+# Visa alla länkar på lernia.se som leder till extern sida
+
+# Skapa ett regex $socialmedia som kollar om en länk går till sociala medier (facebook, instagram, twitter, youtube, linkedin)
+
+# Använd ditt regex för att plocka ut länkar till socialmedia på lernia.se
+
 # ----- Avancerat
 
 # Skapa ett script som automatiskt bygger ditt projekt i .NET när du sparar en av dina cs-filer
+
+# Skapa en mapp som automatisk håller sig i synk med en annan mapp. 
+# Alltså om någon lägger till en fil i den ena mappen så läggs samma fil i den andra mappen
+# Samma sak om någon tar bort eller ändrar en fil
+
