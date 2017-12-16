@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using CustomerRegisterDatabase.Entities;
+using CustomerRegisterDatabase.Model;
 
 namespace CustomerRegisterDatabase
 {
@@ -24,7 +25,7 @@ namespace CustomerRegisterDatabase
             services.AddMvc();
 
             // Konfigurering som krävs för att hantera egna appsettingsvärden (med hård typad härlig modell)
-            // services.AddSingleton(Configuration.GetSection("MailConfiguration").Get<MailConfiguration>());
+            services.AddSingleton(Configuration.GetSection("MailConfiguration").Get<MailConfiguration>());
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
